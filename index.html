@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>logical operators</h1>
+    <p>&& - logical AND opertor </p>
+
+    <script>
+          let age = +prompt("Enter y0ur age");
+          let yearofeducation = +prompt("Enter your year of education");
+          let city = prompt("Enter your city");
+
+          // 24 , 16, "karachi"
+          if (
+            (age < 18 && yearofEducation >= 10)
+            ||
+            (age<26 && yearofEducation>= 16)
+
+                && city === "karachi"
+           ) {
+            console.log("you are eligible");
+            
+           }
+
+</script>
+    
+
+
+</body>
+</html>
